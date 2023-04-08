@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript Intro</title>
+</head>
+<!-- 
+JavaScript 는 client(브라우저) 에서 구동되는 스크립트 프로그램.
+주로 HTML 페이지 내의 element 들의 동적인 변화, 폼 데이터 검증, 브라우저 제어, AJAX 등에 사용.
+HTML elmenet 에 접근 할때는 id, class, name, tag명 을 통해서 접근가능.
+
+JavaScript 를 HTML 에 적용하는 방법 3가지
+1. inline 방식  :  태그의 onxxx 속성(이벤트) 값으로 JavaScript 코드 동작. 
+2. internal 방식 : <script></script> 태그 안에 JavaScript 코드 기입
+3. external 방식 : <script src="myScript.js"> 와 같이 src 속성에 외부 JavaScript 파일 명시
+
+JavaScript 의 주요동작 3가지
+1. HTML element 의  content 를 바꾸는 동작
+2. HTML element 의 attribute 를 바꾸는 동작
+3. HTML element 의 style 을 바꾸는 동작
+
+웹개발자에게 있어서
+	HTML + CSS + JavaScript 는  'MUST LEARN' 이다.
+
+
+
+** JavaScript 주요 활용:
+	웹의 기본 스크립트 언어.
+	jQuery 와 같이 산업표준화된 라이브러리 풍부.
+	JSON 데이터 교환 포맷
+	다양한 프레임워크 : vue.js, react.js, angular.js 등...
+	Node.JS 와 같은 서버사이드 JavaScript 언어도 각광.
+	Unity3D 같은 게임개발 엔진에서도 채택
+		
+** 최초 95년 넷스케이프, 모질라 재단, Ecma 인터네셔널, 에서 만들고 관리함.
+** 설계자 '브렌던 아이크'
+** ECMA스크립트라는 표준 규격을 따른다 ( '자바스크립트'는 이 표준을 따라 개발된 언어(브랜드) )
+** 최신 버젼은 1.8.5. (2010.7~)   그러나, 가장 많이 사용되는 버젼은 1.5.
+** JavaScript 는 Java 와 관련이 없다!!!  오리너구리는 오리가 아니다.
+	(둘다 C 언어 구문을 계승한 부분은 닮았다..)
+** DOM( Document Object Model ) 을 구동시키기 위한 목적으로 개발되었기 때문에
+	DOM 구조를 갖고 있는 HTML과 찰떡궁합.
+	 
+** JavaScript 상표권은 현재 오라클.. 그러나, 모질라 재단과 라이선스 하에 운용됨.
+
+ -->
+ 
+<!-- TODO_2 Internal -->
+
+<!-- TODO_3 External -->
+
+<body>
+<h2>1. JavaScript 는 Content 를 바꿀수 있다</h3>
+<button type="button">클릭하면 날짜와 시간이 보여집니다.</button>
+<p id="demo1">클릭하면 Content 가 바뀝니다</p>
+<p id="demo3">클릭해보세요</p>
+
+<h2>2. JavaScript 는 attribute 를 바꿀수 있다</h3>
+<img id="myImage" src="https://www.w3schools.com/html/pic_bulboff.gif" width="100" height="180">
+<div>
+<button type="button">Light On</button>
+<button type="button">Light Off</button>
+</div>
+
+<h2>3. JavaScript 는 Style 를 바꿀수 있다</h3>
+<p id="demo2">마우스를 올렸다, 내렸다 해보세요.</p>
+
+
+</body>
+</html>

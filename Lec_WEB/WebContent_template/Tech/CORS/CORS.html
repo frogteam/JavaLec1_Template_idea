@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>CORS 문제</title>
+<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+<!-- TODO -->
+
+</head>
+<!-- 
+클라이언트에서 '타 url 서버'로 요청 보낼시 브라우저에 따라 에러 발생하기도 함.
+이는 자바스크립트 엔진 표준스펙에 있는 동일출처 정책 (Same Origin Policy) 때문이다.
+
+스펙공식 : https://www.w3.org/Security/wiki/Same_Origin_Policy
+
+즉 XMLHttpRequest 를 보낼때 '프로토콜, 호스트명, 포트' 가 같아야 한다는 것이다. 
+이 보안정책이 오늘날 RestAPI 등에서 거추장 스러워지자.
+추가적으로 나온 정책이  CORS : Cross-Origin Resource Sharing
+
+다음 예제를 보자
+
+■ 게볼루션 모바일게임&앱 순위 API (ver 1.1)
+http://www.gevolution.co.kr/geconts/geApi.asp 
+
+샘플url
+http://api.gevolution.co.kr/rank/xml/?aCode=BCDE480921&market=g&appType=game&rankType=1&rank=20
+ -->
+<body>
+<h1>게볼루션 모바일게임&앱 순위 API</h1>
+<button type="button" onclick="loadData()">정보 가져오기</button>
+<br><br>
+<h2>결과</h2>
+<div id="result"></div>
+
+<script>
+function loadData() {
+	// XML
+	var url = "http://api.gevolution.co.kr/rank/xml/?aCode=BCDE480921&market=g&appType=game&rankType=1&rank=20";
+
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {  // this 는 XMLHttpRequest 객체다 
+    	parseXML(this.responseXML);
+    }
+  };
+  xhttp.open("GET", url, true);
+  xhttp.send();
+  
+  
+	// TODO
+
+} // end loadData()
+
+function parseXML(xmlDOM) {
+	row = xmlDOM.getElementsByTagName("item");
+	document.getElementById("result").innerHTML = row.length;
+}
+</script>
+
+</body>
+</html>
