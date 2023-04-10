@@ -1,4 +1,4 @@
-package com.lec.java.static03;
+package com.lec.java.j14_08_singleton;
 
 public class Static03Main {
 

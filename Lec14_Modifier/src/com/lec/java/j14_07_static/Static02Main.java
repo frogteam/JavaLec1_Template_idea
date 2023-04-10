@@ -1,4 +1,4 @@
-package com.lec.java.static02;
+package com.lec.java.j14_07_static;
 
 //클래스 변수 / 메소드 특징 (static)
 //1. 메모리의 '메소드 영역'에 클래스가 로드 될때(프로그램 시작될때) '한번만' 생긴다

@@ -1,4 +1,4 @@
-package com.lec.java.final01;
+package com.lec.java.j14_05_final;
 
 public class Final01Main {
 	

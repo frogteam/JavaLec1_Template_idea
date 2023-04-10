@@ -1,6 +1,4 @@
-package com.lec.java.static01;
-
-import java.util.Scanner;
+package com.lec.java.j14_06_static;
 
 // 클래스에 선언된 멤버 변수/멤버 메소드는
 // static 여부에 따라 아래와 같이 불려진다
