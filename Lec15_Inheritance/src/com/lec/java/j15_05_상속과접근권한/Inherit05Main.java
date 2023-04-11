@@ -1,4 +1,4 @@
-package com.lec.java.inherit05;
+package com.lec.java.j15_05_상속과접근권한;
 
 
 /* 상속과 접근권한
