@@ -1,4 +1,4 @@
-package com.lec.java.oop01;
+package com.lec.java.j16_01_Polymorphism;
 /*
  	다형성  ( Polymorphism )
  	하나의 이름의 클래스나 메소드가 '여러 가지 형태의 동작을 하는 능력'
