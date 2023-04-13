@@ -1,4 +1,4 @@
-package com.lec.java.operator08;
+package com.lec.java.j05_08_비트연산자;
 
 /* 비트 연산자 (bit-wise operator)
  *   a & b: (and) a,b가 모두 1 이면 결과도 1, 그 외에는 0

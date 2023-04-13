@@ -1,4 +1,4 @@
-package com.lec.java.operator03;
+package com.lec.java.j05_03_부호연산자;
 
 /* 부호연산자(+, -) sign operator
  * 	+: 부호 연산자(수의 부호(양,음)가 바뀌지 않음)

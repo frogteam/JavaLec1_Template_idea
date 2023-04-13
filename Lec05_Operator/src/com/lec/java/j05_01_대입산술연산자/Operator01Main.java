@@ -1,4 +1,4 @@
-package com.lec.java.operator01;
+package com.lec.java.j05_01_대입산술연산자;
 
 /*
  * 연산자 관련 일반사항

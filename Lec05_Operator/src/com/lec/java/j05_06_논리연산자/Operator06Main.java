@@ -1,4 +1,4 @@
-package com.lec.java.operator06;
+package com.lec.java.j05_06_논리연산자;
 
 /* 논리 연산자: &&, ||, !, ^
  *	A && B: (AND 연산) A와 B가 모두 참일 때만 결과가 true, 나머지는 결과가 false

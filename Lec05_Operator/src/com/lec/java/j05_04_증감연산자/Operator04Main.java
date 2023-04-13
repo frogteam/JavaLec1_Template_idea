@@ -1,4 +1,4 @@
-package com.lec.java.operator04;
+package com.lec.java.j05_04_증감연산자;
 
 /* 증감 연산자(++, --) Increment / Decrement Operator
  *  	++변수: 변수의 값을 1 증가시켜서 저장

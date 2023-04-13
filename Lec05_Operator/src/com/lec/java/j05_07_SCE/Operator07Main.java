@@ -1,4 +1,4 @@
-package com.lec.java.operator07;
+package com.lec.java.j05_07_SCE;
 
 /* 게으른 계산(Lazy Evaluation)
  * SCE: Short-Circuit Evaluation

@@ -1,4 +1,4 @@
-package com.lec.java.operator05;
+package com.lec.java.j05_05_비교연산자;
 
 /*
 	관계(비교) 연산자   Equality and Relational Operators

@@ -1,4 +1,4 @@
-package com.lec.java.operator09;
+package com.lec.java.j05_09_연산의결과타입;
 /* 산술 연산의 결과 타입
  * 
  * 일단 피연산자가 reference type 이면, unbox 후 형변환 수행됨. 그리고 나서

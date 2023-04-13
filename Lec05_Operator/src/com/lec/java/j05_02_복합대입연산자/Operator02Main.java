@@ -1,4 +1,4 @@
-package com.lec.java.operator02;
+package com.lec.java.j05_02_복합대입연산자;
 
 /* 복합 대입 연산자 compound assignment operators
  * 
