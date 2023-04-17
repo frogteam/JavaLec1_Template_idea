@@ -1,4 +1,4 @@
-package com.lec.java.if03;
+package com.lec.java.j06_03_ex성적등급;
 
 /* if 조건문 연습 : 간단한 성적 처리 프로그램
  * 사용자로부터 국어,영어,수학 점수 (정수) 를 입력 받은뒤
