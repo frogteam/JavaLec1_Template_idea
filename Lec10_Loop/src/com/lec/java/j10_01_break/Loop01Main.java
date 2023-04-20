@@ -14,7 +14,7 @@ public class Loop01Main {
 		
 		
 		System.out.println();
-		// 2와 7의 최소공배수를 출력
+		// 1 ~ 100 사이에서 2와 7의 최소공배수를 출력
 		// 최소공배수: 공배수 중에서 가장 작은 수
 
 		// TODO
