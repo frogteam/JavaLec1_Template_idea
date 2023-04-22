@@ -1,4 +1,4 @@
-package com.lec.java.regexp01;
+package com.lec.java.j19_11_정규표현식메소드;
 
 /* 정규표현식 regular expression
  * 
