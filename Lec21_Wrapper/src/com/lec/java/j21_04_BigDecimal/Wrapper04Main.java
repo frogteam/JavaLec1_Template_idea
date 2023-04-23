@@ -1,4 +1,4 @@
-package com.lec.java.wrapper05;
+package com.lec.java.j21_04_BigDecimal;
 
 /* Wrapper 클래스의 유용성
  * 1. Object 타입이 모~든 (심지어 primitive) 타입도 받을수 있다.
@@ -7,7 +7,7 @@ package com.lec.java.wrapper05;
  *     
  * 3. Wrapper 는 null 값 표현 가능
  */
-public class Wrapper05Main {
+public class Wrapper04Main {
 
 	public static void main(String[] args) {
 		System.out.println("Wrapper 클래스의 유용성");

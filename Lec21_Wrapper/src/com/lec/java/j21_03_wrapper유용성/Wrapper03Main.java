@@ -1,8 +1,4 @@
-package com.lec.java.wrapper04;
-
-import java.math.BigDecimal;
-import java.math.BigInteger;
-import java.math.RoundingMode;
+package com.lec.java.j21_03_wrapper유용성;
 
 /* BigInteger, BigDecimal
  * 
@@ -14,7 +10,7 @@ import java.math.RoundingMode;
  *  
  * 이들은 반드시, 인스턴스를 생성해서 사용해야 한다
  */
-public class Wrapper04Main {
+public class Wrapper03Main {
 
 	public static void main(String[] args) {
 		System.out.println("[1] BigInter 클래스");

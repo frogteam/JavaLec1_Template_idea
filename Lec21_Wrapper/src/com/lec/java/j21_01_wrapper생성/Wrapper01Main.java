@@ -1,4 +1,4 @@
-package com.lec.java.wrapper01;
+package com.lec.java.j21_01_wrapper생성;
 
 /* Wrapper 클래스: 기본 자료형(primitive type)의 데이터를 감싸는 클래스
  * 기본 자료형: boolean, char, byte, short, int, long, float, double
@@ -16,27 +16,19 @@ public class Wrapper01Main {
 
 		// TODO
 
-		// 1. 생성자 이용
+		// 1. wrapper 클래스의 static 메소드인 valueOf() 메소드를 사용
 		// TODO
 		
 		
-		// 2. wrapper 클래스의 static 메소드인 valueOf() 메소드를 사용
+		// 2. literal 상수로 생성
 		// TODO
 		
 		
-		// 3. new Integer() VS Integer.valueOf()
+		// 3. valueOf(문자열) 가능!
 		// TODO
 		
 		
-		// 4. literal 상수로 생성
-		// TODO
-		
-		
-		// 5. valueOf(문자열) 가능!
-		// TODO
-		
-		
-		// 6. 산술 연산 가능
+		// 4. 산술 연산 가능
 		// TODO
 
 		
