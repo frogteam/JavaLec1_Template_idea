@@ -62,7 +62,7 @@ public class String01Main {
 		String str4 = "HH:MM:SS";
 		// TODO
 		
-		// 공백기준으로 쪼갤때는 정규표현식의 \\s+  사용하기 : 공백, 탭, 줄바꿈
+		// 공백기준으로 쪼갤때는 정규표현식의 \s+  사용하기 : 공백, 탭, 줄바꿈
 		// TODO		
 		
 		// 단!  "|" 을 할경우는 주의,   ※ split(정규표현식) 을 사용하는 메소드임
@@ -87,6 +87,16 @@ public class String01Main {
 		System.out.println("trim()");   // 좌우의 여백 제거
 		String str9 = "   김동후   ";
 		// TODO
+//		System.out.printf("[%s]\n", str9);
+//		System.out.printf("[%s]\n", str9);
+
+		// Java11 에 추가:
+		// strip()   좌우 공백 제거
+		// stripLeading()  좌측 공백 제거
+		// stripTrailing() 우측 공백 제거
+//		System.out.printf("[%s]\n", str9);
+//		System.out.printf("[%s]\n", str9);
+//		System.out.printf("[%s]\n", str9);
 		
 		
 		System.out.println();

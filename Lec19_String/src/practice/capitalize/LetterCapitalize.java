@@ -7,7 +7,7 @@ import java.util.Scanner;
  *  quit 을 입력 받으면 종료하기
  * 
  * 	[입력예]
- * 		hello my world
+ * 		hello my WORLD
  *  [출력예]
  * 		Hello My World  
  */

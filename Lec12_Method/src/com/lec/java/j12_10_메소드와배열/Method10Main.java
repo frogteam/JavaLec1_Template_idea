@@ -28,7 +28,12 @@ public class Method10Main {
 	// return: void
 	// arguments: int[] score - 출력할 점수가 저장된 배열
 	// TODO
-	
+
+	// method name: doubleUp()
+	// return: int[]  (생성된 배열)
+	// arguments: int[] (입력 배열)
+	//   입력된 배열의 원소들을 x2 를 한 새로운 배열 생성하여 리턴
+	// TODO
 	
 	// method name: calcTotal
 	// return: int (계산된 총점을 리턴)
@@ -46,11 +51,8 @@ public class Method10Main {
 	// return: int (최소값)
 	// arguments: int[] score
 	// TODO
-	
-	// method name: genRandom()
-	// return: double[]  (생성된 난수 배열)
-	// arguments: n  생성할 난수 개수
-	// TODO
+
+
 	
 } // end class Method09Main
 
