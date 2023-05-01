@@ -57,9 +57,9 @@ public class Exception04Main {
 
 		// TODO : multi-catch 사용하기
 
-			str = null;
-			str.length();
-			int n = 123 / 0;
+//			str = null;
+//			str.length();
+//			int n = 123 / 0;
 
 
 
