@@ -7,7 +7,7 @@ import java.util.Date;
 
 /*
  * java.sql.Timestamp;
- * 1970.01.01 00:00:00  GMT 기준 의 경과 시간을 ms 로 계산해 담은 객체
+ * 1970.01.01 00:00:00  GMT 기준 의 경과 시간을 ms (정수)로 계산해 담은 객체
  */
 public class DateTime05Main {
 

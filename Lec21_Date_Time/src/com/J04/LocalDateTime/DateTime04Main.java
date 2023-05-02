@@ -1,10 +1,5 @@
 package com.J04.LocalDateTime;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.format.DateTimeFormatter;
-
 /*
  * java.time 패키지
  * 	- JAVA8 부터 도입
@@ -59,6 +54,10 @@ public class DateTime04Main {
 				
 		System.out.println("\nDateTimeFormatter 사용");
 		// java.time.DateTimeFormatter 를 사용하여 원하는 포맷으로 출력
+		// LocalDateTime => String
+		// TODO
+
+		// String => LocalDateTime
 		// TODO
 		
 		
