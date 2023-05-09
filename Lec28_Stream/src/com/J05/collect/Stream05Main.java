@@ -1,7 +1,4 @@
-package com.lec.stream05;
-
-import java.util.Arrays;
-import java.util.stream.Collectors;
+package com.J05.collect;
 
 public class Stream05Main {
 	public static void main(String[] args) {

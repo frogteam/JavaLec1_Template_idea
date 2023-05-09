@@ -1,4 +1,4 @@
-package com.lec.stream06;
+package com.J06.Stream;
 
 public class TravelCustomer {
     private String name;   //이름

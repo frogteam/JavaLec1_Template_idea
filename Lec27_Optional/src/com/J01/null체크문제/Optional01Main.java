@@ -1,4 +1,4 @@
-package com.lec.optional01;
+package com.J01.null체크문제;
 
 import common.Address;
 import common.User;

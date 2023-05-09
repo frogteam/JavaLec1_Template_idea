@@ -1,4 +1,4 @@
-package com.lec.stream04;
+package com.J04.Stream;
 
 
 public class Restaurant {
