@@ -1,13 +1,19 @@
 package com.J01.stream생성;
 
-import java.util.ArrayList;
-import java.util.List;
+import common.Customer;
+
+import java.util.*;
+import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
+import java.util.stream.Stream;
+// 선행 : Collection, 배열, Lambda, 익명클래스,
+//       Optional, 함수형인터페이스
 
 /**
  *  스트림 (Stream) : 집합자료의 연산을 위해 사용하는 객체
  *  - Java8 에서 등장
  *  - 람다 활용
- *  - InputStream / OutputStream 과는 전혀 다른 객체다. 헷갈리지 말자.
+ *  - ※ InputStream / OutputStream 과는 전혀 다른 객체다. 헷갈리지 말자.
  *
  *  자료의 대상과 관계 없이 '동일한 연산'을 수행할 수 있는 기능 (자료의 추상화!)
  *
@@ -27,35 +33,37 @@ import java.util.List;
  *   스트림을 생성할 때 스트림이 열리고 모든 연산이 행해지고 결과를 받으면 스트림이 닫힌다.
  *   스트림이 닫히면 해당 스트림을 재사용할 수 없기 때문에 스트림을 다시 생성해야한다.
  *   스트림의 생성은 stream(), of() 메서드를 이용해 컬렉션, 배열 등 다양한 곳에서 생성이 가능하다.
- *   stream()은 컬렉션 인터페이스의 기본 메서드로 정의되어 있다. Stream.of()를 통해 생성하는 것이 가능하다.
+ *   stream()은 Collection<> 인터페이스의 기본 메서드로 정의되어 있다.
+ *   Stream.of()를 통해 생성하는 것이 가능하다.
+ *
+ *   Stream<T> ← 일반(generic) stream
+ *
+ *   IntStream, DoubleStream, LongStream ← primitive type stream 3개 제공
+ * *   boxed stream         primitive stream
+ *  *   ------------------------------------
+ *  *   Stream<Integer>     IntStream
+ *  *   Stream<Double>      DoubleStream
+ *  *   Stream<Long>        LongStream
  */
 
 public class Stream01Main {
 	public static void main(String[] args) {
-		
-		
-		int [] arr = {5, 2, 1, 4, 3};
 
-		// Arrays.stream(int[]) => IntStream 생성
+		int [] intArr = {5, 2, 1, 4, 3};   // 배열
+		double [] doubleArr = {0.1, 0.2, 0.3, 0.4};
+		List<String> stringList = List.of("zayson", "maeng", "joon");  // List<String>
+		List<Integer> intList = List.of(1, 2, 3, 4, 5);   // List<Integer>
+		Set<Integer> integerSet = Set.of(10, 20, 30);     // Set<Integer>
+		Map<String, Integer> person = Map.of("zayson", 28, "chaeyoung", 26);
+
+		// 배열의 스트림 생성
 		// TODO
 
-		// IntStream 의 메소드 sum(), count()
-		int sum, min, max;
-		long count;
+		// 컬렉션 의 스트림 생성
 		// TODO
 
-
-		System.out.println();
-		// Integer collection  에 대해서는 곧바로 sum()  사용 불가
-		List<Integer> list = new ArrayList<Integer>();
-		list.add(1);
-		list.add(2);
-		list.add(3);
-		list.add(4);
-		list.add(5);
-		
+		// Stream.of() 팩토리 메서드로 스트림 생성
 		// TODO
-
 
 		System.out.println("\n프로그램 종료");
 	} // end main()

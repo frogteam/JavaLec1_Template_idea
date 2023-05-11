@@ -1,4 +1,4 @@
-package com.J06.Stream;
+package common;
 
 public class TravelCustomer {
     private String name;   //이름
