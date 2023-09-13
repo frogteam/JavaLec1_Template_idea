@@ -13,7 +13,7 @@ import com.lec.java.j07_05_EnhancedSwitch.Day;
 
 public class Switch06Main {
     public static void main(String[] args) {
-        Day day = Day.THURSDAY;
+        Day day = Day.THURSDAY;  // 외부 클래스니까 import 필요
 
         // 기본 switch 문 방식으로 day 의 길이를 변수에 저장
         {

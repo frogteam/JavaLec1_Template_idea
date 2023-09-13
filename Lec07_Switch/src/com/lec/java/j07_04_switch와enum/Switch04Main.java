@@ -2,7 +2,7 @@ package com.lec.java.j07_04_switch와enum;
 
 public class Switch04Main {
 
-	// enum 타입 정의하는 방법:
+	// enum 타입 정의하는 방법: (enumeration)
 	// enum 이름 {}
 	// enum 타입 정의 메소드 안에서는 할 수 없다.
 	
