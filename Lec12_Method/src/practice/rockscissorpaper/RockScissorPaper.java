@@ -81,20 +81,6 @@ public class RockScissorPaper {
 	} // end displayChoice()
 	
 	
-	// method name: getHandType
-	// return: String ("가위"/"바위"/"보")
-	// arguments: int choice  <- (1, 2, 3)
-	public static String getHandType(int choice) {
-		String type = "";
-
-		
-		// TODO
-		
-		
-		return type;
-	} // end getHandType()
-	
-	
 	// method name: computeResult
 	// return: void
 	// arguments:
