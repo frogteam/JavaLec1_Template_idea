@@ -62,9 +62,8 @@ public class Method02Main {
 } // end class
 
 /*
- * Refactor - Inline   (ALT + SHIFT + I)
- * Refactor - Extract Local Variable  (ALT + SHIFT + L)
- * 	
+   Refactor - Introduce Variable  CTRL + ALT + V
+   Refactor - Inline Variable  CTRL + ALT + N
  */
 
 

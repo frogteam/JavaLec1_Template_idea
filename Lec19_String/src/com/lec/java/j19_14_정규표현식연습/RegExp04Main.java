@@ -20,6 +20,7 @@ import java.util.Scanner;
  * 
  * 불가]
  * 	xX-1200-089-zuy
+ *  Ab-a890-b86-zuy
  * 	p9-324-389-zopl
  * 
  *  쿠폰번호를 계속해서 입력 받으면서 

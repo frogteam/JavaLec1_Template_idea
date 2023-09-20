@@ -11,8 +11,8 @@ public class Method07Main {
 		// TODO
 		
 		System.out.println();
-		// double Math.floor(num): num을 넘지 않는 가장 큰 정수(바닥)
-		// double Math.ceil(num): num보다 큰 가장 작은 정수(천장)
+		// double Math.floor(num): num이하의 수 중 가장 큰 정수(바닥)
+		// double Math.ceil(num): num이상의 수 중 가장 작은 정수(천장)
 		// long Math.round(num): num에서 소수점 사사오입 (반올림)
 		// TODO
 		
