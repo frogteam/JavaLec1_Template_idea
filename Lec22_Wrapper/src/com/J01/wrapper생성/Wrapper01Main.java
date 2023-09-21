@@ -3,8 +3,11 @@ package com.J01.wrapper생성;
 /* Wrapper 클래스: 기본 자료형(primitive type)의 데이터를 감싸는 클래스
  * 기본 자료형: boolean, char, byte, short, int, long, float, double
  * Wrapper: Boolean, Character, Byte, Short, Integer, Long, Float, Double
- * 
- * Wrapper 클래스는 String 과 마찬가지로 immutable(불변) 이다. 
+ *
+ * Wrapper 클래스는 String 과 마찬가지로 immutable(불변) 이다.
+ *
+ * Wrapper 는 null  값을 가질수 있다 (reference type 이니까!)
+ * 	          ↑ primitive 는 표현할 수 없는 값!
  */
 
 public class Wrapper01Main {
