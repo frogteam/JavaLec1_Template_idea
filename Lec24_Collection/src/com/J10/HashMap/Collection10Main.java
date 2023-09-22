@@ -20,6 +20,11 @@ package com.J10.HashMap;
 */
 
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class Collection10Main {
 
 	public static void main(String[] args) {
@@ -74,7 +79,42 @@ public class Collection10Main {
 		// TODO
 		
 		System.out.println();
-		
+
+		//-----------------------------------------------------------
+		// HashMap 을 초기화 하는 다양한 방법들
+		System.out.println("\n다양한 Map initializer");
+		// 참고:  https://www.baeldung.com/java-initialize-hashmap
+		{
+			Map<String, String> map1;
+			Map<String, Integer> map2;
+
+			// Stream 사용 (Java8 이상)
+			// key, value 가 같은 타입이면
+//			map1 = TODO
+//			System.out.println(map1);
+
+			// key, value 가 서로 다른 타입이라면 Object[][] 로 초기화 가능
+			// object 인 경우 형변환
+//			map2 = TODO
+//			System.out.println(map2);
+
+			// Java9 방식
+			// Map.of( .. ) <= 최대 10개까지의 key, value 쌍 지정 가능
+//			map1 = TODO
+//			System.out.println(map1);
+
+//			map1 = TODO
+//			System.out.println(map1);
+
+//			map1 = TODO
+//			System.out.println(map1);
+
+			// double-brace syntax 사용.
+//			map1  = TODO
+//			System.out.println(map1); // {key1=value1, key2=value2}
+		}
+
+		//-----------------------------------------------------------
 		// 도전과제
 		// arr[] = {2, 4, 5, 4, 3, 3, 4}
 		// 주어진 배열이 위와 같을때 다음과 같이 발생회수 나타내기 

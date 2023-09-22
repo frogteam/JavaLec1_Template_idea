@@ -1,15 +1,16 @@
 package com.J03.Generic메소드;
 
 /* Generic메소드
- *   <T, R> R Method (T t)
+ *
+ *   제네릭 메소드는 메소드의 선언부에 적은 타입 파라미터로
+ *    '리턴 타입' 이나 '파라미터 타입'이 정해지는 메소드
+ *
  *   <타입파라미터..> 리턴타입 메소드명(매개변수) {...}
+ *
+ *   Ex)
+ *    <T, R> R MethodName (T t)
+ *
  */
-
-//      와일드 카드 <?>
-//		upper-bounded <? extends Number>
-//		lower-bounded <? super Integer> 
-//		generic 사용 <? extends T>
-//		generic 인터페이스
 
 public class Generic03Main {
 
@@ -23,15 +24,6 @@ public class Generic03Main {
 	} // end main()
 
 } // end class
-
-class Box<K>{
-	K data;
-	
-	public void setData(K data) {
-		this.data = data;
-	}
-}
-
 
 
 

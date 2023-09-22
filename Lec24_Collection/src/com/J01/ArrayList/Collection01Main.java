@@ -113,6 +113,7 @@ public class Collection01Main {
 //			System.out.println(list);
 
 			// Factory method (Java9 이상)
+			// ★ immutable list(unmodifiable list) 가 생성된다.
 //			list = TODO;
 //			System.out.println(list);
 

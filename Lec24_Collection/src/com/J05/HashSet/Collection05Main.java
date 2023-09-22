@@ -17,6 +17,13 @@ package com.J05.HashSet;
 	 	(※ HashXXX ← '검색속도 향상'을 쓰는 자료구조 입니다)
 */
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class Collection05Main {
 
 	public static void main(String[] args) {
@@ -71,6 +78,38 @@ public class Collection05Main {
 		// toString() 제공됨
 		System.out.println();
 		// TODO
+
+		System.out.println("\n다양한 Set initializer");
+		// 참고: https://www.baeldung.com/java-initialize-hashset
+		//      https://stackoverflow.com/questions/2041778/how-to-initialize-hashset-values-by-construction
+		{
+			Set<String> set = new HashSet<>();
+
+			// List, 배열로부터 생성
+//			set = TODO
+//			System.out.println(set);
+
+			// Collections utility 클래스 하용
+//			TODO
+//			System.out.println(set);
+
+			// Stream 사용 (Java8 이상)
+//			set = TODO
+//			System.out.println(set);
+
+			// Factory method (Java9 이상)
+//			set = TODO
+//			System.out.println(set);
+
+			// Double-brace initialization
+			// 비추
+//			set = TODO
+//			System.out.println(set);
+
+			// 그밖에도 guava 라는 3rd party 라이브러리도 활용할수 있다
+			// https://guava.dev/releases/22.0/api/docs/com/google/common/collect/Sets.html#newHashSet--
+			// Sets.newHashSet("a", "b", "c")
+		}
 		
 		System.out.println("\n프로그램 종료");
 	} // end main()
