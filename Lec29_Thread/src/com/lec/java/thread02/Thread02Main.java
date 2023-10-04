@@ -36,7 +36,7 @@ public class Thread02Main {
 		//System.out.println("Anonymous class 으로 Runnable 구현");
 		// TODO
 		
-		// Runnable 인터페이스는 run() 가상메소드 하나만 가지고 있는 인터페이스 이기 때문에
+		// Runnable 인터페이스는 run() 가상메소드 하나만 가지고 있는 함수형인터페이스 이기 때문에
 		// Lambda-expression 으로도  구현 가능.
 		//System.out.println();
 		//System.out.println("Lambda-expression 으로 Runnable 구현");

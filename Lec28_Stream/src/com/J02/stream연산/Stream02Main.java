@@ -73,7 +73,7 @@ public class Stream02Main {
 
 		//---------------------------------------------------------------------
 		// Map(Function<T, U>)  [중간연산]
-		// Stream 의 요소를 '연산을 적용하여 변환'한 Stream 리턴
+		// Stream 의 요소 '각각'에 '연산을 적용하여 변환'한 Stream 리턴
 		// 입력  =>  출력
 		//  n개  =>  n개
 
@@ -206,7 +206,11 @@ public class Stream02Main {
 
 		// System.out.println("-".repeat(30) +"\n▶ min(), max()");
 		{
-			// TODOs
+			// 1-1) 최대 나이값  (primitive)
+			// TODO
+
+			// 1-2) 최대 나이값  (reference)
+			// TODO
 		}
 
 		//---------------------------------------------------------------
@@ -219,11 +223,21 @@ public class Stream02Main {
 
 		// System.out.println("-".repeat(30) +"\n▶ **Match(Predicate<T>)");
 		{
+			// 1) 이름에 "o"가 들어가는 사람이 한명이라도 있습니까? (anyMatch 사용)
+			// TODO
+
+			// 2) 모든 사람의 이름에 "o" 가 있습니까? (allMatch 사용)
+			// TODO
+
+			// 3)  모든 사람의 나이가 25살 이상입니까?  (allMatch 사용)
+			// TODO
+
+			// 4) 어떤 사람의 이름도 10글자이상이 아닙니까?  (noneMatch 사용)
 			// TODO
 		}
 
 		//-------------------------------------------------------
-		// find   [중간연산]
+		// find   [최종연산]
 		//
 		//   findFirst() : 주어진 스트림에서 '순서상 첫번째' 원소를 리턴
 		//   findAny() : 주어진 스트림에서 '가장 먼저' 탐색되는 원소 리턴  (병렬처리 환경)
@@ -238,6 +252,7 @@ public class Stream02Main {
 
 		// System.out.println("-".repeat(30) +"\n▶ findFirst() findAny()");
 		{
+			// 1) 나이가 40 이상인 고객중 첫번째 고객
 			// TODO
 		}
 
@@ -267,6 +282,42 @@ public class Stream02Main {
 					new Customer("joon", 28)
 			);
 
+			// 1) 이름만 List 로 뽑기
+			// TODO
+
+			// 2) 나이대를 Set으로 뽑기
+			// TODO
+
+			// 3) 이름-나이 로 Map 뽑기
+			// TODO
+
+			// Collectors.joining()은 연산한 결과가 String 타입일 때 여러 결과 문자열을 하나로 합쳐주는 역할을 한다.
+			//    파라미터가 없는 경우 : 문자열을 그대로 이어붙힌다.
+			//    파라미터가 1개인 경우 (delimiter) : 각 문자열 사이에 구분자를 넣을 수 있다.
+			//    파라미터가 3개인 경우 (delimiter, prefix, suffix) : 각 문자열 사이에 구분자를 넣고, 하나로 합쳐진 문자열 앞뒤에 문자열을 추가해 붙힌다.
+
+			// 4) 이름을 뽑아 다양한 형태로 이어붙히기
+			// 연산한 문자열을 하나의 문자열로 이어붙힌다.
+			// TODO
+
+			// Collectors.summarizingInt(), Collectors.summingInt(), Collectors.averagingInt()
+			//   통계를 내어 최대값, 최소값, 개수, 합계, 평균을 구하거나
+			//   직접 합계나 평균을 구하는 것이 가능하다.
+			// Int, Double, Long 모두 지원
+
+			// 5) 합계, 평균, 통계를 이용한 계산
+			// TODO
+
+			// Collectors.groupingBy()는 파라미터로 그룹핑 할 기준을 정해주면 해당 기준으로 데이터를 그룹핑한다.
+			// 6) 데이터 그룹핑 (나이기준으로 데이터 그룹핑)
+			// TODO
+
+			// Collectors.partitioningBy()는 파라미터로 Predicate를 받는다.
+			// 따라서, 해당 조건을 통해 나온 True/False를 기준으로 결과 데이터를 두 파티션으로 나눈다.
+			// 7-1)이름이 5글자보다 많은 경우 구분
+			// TODO
+
+			// 7-2) 나이가 28살이 아닌 사람 구분
 			// TODO
 		}
 

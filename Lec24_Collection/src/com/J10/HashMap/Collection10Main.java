@@ -50,6 +50,12 @@ public class Collection10Main {
 		
 		// 데이터 읽기
 		// get(key) 사용해서 value 읽기
+		System.out.println();
+		// TODO
+
+		// getOrDefault(key, default)
+		// 없는 key 값에 대해 default 값 리턴
+		System.out.println();
 		// TODO
 
 		
@@ -71,8 +77,7 @@ public class Collection10Main {
 		System.out.println();
 		
 		// 방법2 : Map.Entry 사용
-		// entrySet() 은 Set<Entry<Integer, String>> 리턴함
-
+		// entrySet() 은 Set<Map.Entry<K, V>> 리턴함
 		// TODO
 		
 		// 방법3 : toString()

@@ -11,6 +11,8 @@ java.io.InputStream
 java.io.OutputStream
 |__ java.io.FilterOutputStream
    |__ java.io.DataOutputStream
+
+   Java 의 data 를 입출력하는 용도로 사용 (ex: int, double...)
 */
 
 public class File06Main {

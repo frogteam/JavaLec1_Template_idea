@@ -23,13 +23,27 @@ package com.lec.java.j24_05_MethodReference;
  */
 
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.function.*;
 
 
 public class Lambda05Main {
     public static void main(String[] args) {
 
-        System.out.println("Static method reference");
+        {
+            List<String> list = Arrays.asList("이승호", "허지우", "권희수");
+            // 1.익명클래스 사용
+            // TODO
+
+            // 2. 람다 사용
+            // TODO
+
+            // 3. 메소드레퍼런스 사용
+            // TODO
+        }
+
+        System.out.println("-".repeat(30) + "\n▶ Static method reference");
         {
             Function<String, Integer> f = str -> Integer.parseInt(str);  // 메소드호출 1회로 끝나는 람다표현식
 
@@ -49,7 +63,7 @@ public class Lambda05Main {
             c.accept("hello method reference");
         }
 
-        System.out.println("\nInstance method reference");
+        System.out.println("-".repeat(30) + "\n▶ Instance method reference");
         {
             Function<String, Boolean> f = str -> str.isEmpty(); // 메소드호출 1회로 끝나는 람다표현식
 
@@ -80,9 +94,9 @@ public class Lambda05Main {
             System.out.println(result);
         }
 
-        System.out.println("\nConstructor method reference");
+        System.out.println("-".repeat(30) + "\n▶ Constructor method reference");
         {
-            Supplier<String> s = () -> "";
+            Supplier<String> s = () -> new String();
 
             // 생성자 메소드 레퍼런스 사용
             // TODO
@@ -91,7 +105,7 @@ public class Lambda05Main {
             System.out.println("결과 [" + result + "]");
         }
 
-        System.out.println("\nOuter Object method reference");
+        System.out.println("-".repeat(30) + "\n▶ Outer Object method reference");
         {
             String str = "hello";
             Predicate<String> p;

@@ -3,25 +3,30 @@ package com.J03.reduce;
 import java.util.Arrays;
 import java.util.function.BinaryOperator;
 
-/* reduce() 연산
- * 
- *  전달된 스트림의 데이터를 2개를 소모하며 주어진 '연산' 수행
- *  주어진 연산은 결괏값 1개 리턴
- *  
- * 	reduce(초깃값, (전달된 스트림의 데이터) -> 연산기능)
- * 				  ↑
- * 				  직접 구현하든지,
- * 				  BinaryOperator 를 구현한 클래스
- * 
+/** reduce() 연산 [최종연산]
+ *
+ *  전달된 스트림의 데이터에서
+ *  '2개'를 소모하며 결괏값 '1개'를 리턴하는 'reduce 연산'(BinaryOperator)을 반복 수행 하며 개수를 감소시킨다.
+ *  최종적으로 '한개' 까지 reduce 되면 그 값을 리턴한다.
+ *
+ *  리턴값
+ * 		초깃값이 없으면 Optional<T> 리턴
+ * 		초깃값이 있으면 초깃값 타입 리턴
+ *
+ *  입력 =>  출력
+ *  n개 =>  1개
+ *
+ *  reduce(BinaryOperator<T>)
+ * 	reduce(Identity, BinaryOperator<T>)
+ *
  *  기존의 주어진 연산 (count, sum 등..) 이 아닌 연산을 Stream 에 수행할때 필요
  *
- *  리턴값은 Optional 객체
- *
- * 데이터 연산 3대장
- *  	map : n개 -> n개
- *  	filter : n개 -> n`개 > (n' <= n)
- *  	reduce : n개 -> 1개
+ * ※ 데이터 연산 3대장
+ *  	map : n -> n
+ *  	filter : n -> n' ( <= n)
+ *  	reduce : n -> 1
  */
+
 
 public class Stream03Main {
 

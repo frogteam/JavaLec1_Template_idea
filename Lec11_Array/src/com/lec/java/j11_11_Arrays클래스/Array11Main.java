@@ -13,7 +13,9 @@ public class Array11Main {
 
 	public static void main(String[] args) {
 		System.out.println("java.util.Arrays 클래스");
-	
+
+		int[] arr = {10, 20, 30, 40, 50};
+
 		// TODO
 		
 		System.out.println("\n프로그램 종료");

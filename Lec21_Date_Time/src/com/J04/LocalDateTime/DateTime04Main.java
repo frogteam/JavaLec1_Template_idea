@@ -1,5 +1,10 @@
 package com.J04.LocalDateTime;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+
 /*
  * java.time 패키지
  * 	- JAVA8 부터 도입
@@ -34,31 +39,40 @@ public class DateTime04Main {
 
 	public static void main(String[] args) {
 		System.out.println("-- java.time --");
-		
-		System.out.println("\nLocalDate");
-		// now() 현재 날짜
-		// TODO
-		
-		// of(year, month, dayOfMonth) 주어진 날짜
-		// TODO
-		
-		System.out.println("\nLocalTime");
-		// TODO
-		
-		// of(hour, minute, second, nanoOfSecond) 주어진 시간
-		// TODO
-		
-		System.out.println("\nLocalDateTime");
-		// TODO
 
-				
-		System.out.println("\nDateTimeFormatter 사용");
-		// java.time.DateTimeFormatter 를 사용하여 원하는 포맷으로 출력
-		// LocalDateTime => String
-		// TODO
+		LocalDate date1, date2;
+		LocalTime time1, time2;
+		LocalDateTime datetime1, datetime2;
+		String myDate = "2023-04-05";
 
-		// String => LocalDateTime
-		// TODO
+		Object[] arr = {
+				"\n[LocalDate]",
+				"현재날짜: " /* TODO */,   // now() 현재 날짜  2023-09-22
+
+				// of(year, month, dayOfMonth) 주어진 날짜
+				"주어진날짜: " /* TODO */,  // 1999-04-20
+
+				"\n[LocalTime]",
+				"현재시간: " /* TODO */,   // 00:13:38.993207500
+
+				// of(hour, minute, second, nanoOfSecond) 주어진 시간
+				"주어진시간: " /* TODO */,  // 23:12:22.001234567
+
+				"\n[LocalDateTime]",
+				"현재날짜시간: " /* TODO */,  // 2023-09-21T14:43:15.685732500
+				"주어진날짜시간: "  /* TODO */,
+
+				// LocalDateTime => String
+				"\n[LocalDateTime → String] format(), DateTimeFormatter 사용",
+				// java.time.DateTimeFormatter 를 사용하여 원하는 포맷으로 출력
+				// https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html
+				// TODO
+
+				// String -> LocalDate
+				"\n[String → LocalDate ] LocalDate.parse(), DateTimeFormatter 사용",
+				// TODO
+		};
+		for (var d : arr) System.out.println(d);
 		
 		
 		System.out.println("\n프로그램 종료");

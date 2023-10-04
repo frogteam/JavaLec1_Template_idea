@@ -34,7 +34,10 @@ public class Wrapper01Main {
 		// 4. 산술 연산 가능
 		// TODO
 
-		
+		// 5. Wrapper 는 null  값을 가질수 있다 (당연!)  primitive 는 가질수 없는 값!
+
+
+
 		System.out.println("\n프로그램 종료");
 	} // end main()
 

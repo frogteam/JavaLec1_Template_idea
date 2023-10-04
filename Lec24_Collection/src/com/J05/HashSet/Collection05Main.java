@@ -62,8 +62,7 @@ public class Collection05Main {
 		// Set 자료형 데이터 변경을 할 수 있는 set() 메소드를 제공하지 않습니다.
 		// 삭제(remove) 후 추가(add)하면 변경하는 효과
 		// TODO : 500 -> 555 로 변경하고 싶다면?
-		
-		
+
 		// enhanced-for 사용
 		System.out.println();
 		System.out.println("Enhanced for 사용 출력");
@@ -73,8 +72,7 @@ public class Collection05Main {
 		System.out.println();
 		System.out.println("forEach() 사용 출력");
 		// TODO
-		
-		
+
 		// toString() 제공됨
 		System.out.println();
 		// TODO

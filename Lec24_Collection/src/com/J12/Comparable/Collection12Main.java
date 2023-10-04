@@ -67,7 +67,7 @@ public class Collection12Main {
 		System.out.println("min(), max()");
 		// TODO
 		
-		// copy()
+		// copy(dest, src)
 		System.out.println();
 		// TODO
 		
