@@ -10,7 +10,8 @@ package com.J03.Optional메소드;
  * 
  * -Optional<T> filter(Predicate<T>)
  * 	  내부객체가 해당 조건을 만족하는지 확인.  (Predicate 메소드는 boolean 을 리턴)
- *    Optional<U> 리턴
+ *      true 판정되면 -> Optional<U> 리턴
+ *      false 판정되면 -> Optional.Emtpy 리턴
  * 
  * -Optional<U> map(Function<T, U>)
  * 	  스트림과 같다. 내부 객체를 변환하는 용도로 사용한다.

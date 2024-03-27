@@ -1,6 +1,9 @@
 package com.J03.reduce;
 
+import common.Customer;
+
 import java.util.Arrays;
+import java.util.List;
 import java.util.function.BinaryOperator;
 
 /** reduce() 연산 [최종연산]
@@ -18,6 +21,9 @@ import java.util.function.BinaryOperator;
  *
  *  reduce(BinaryOperator<T>)
  * 	reduce(Identity, BinaryOperator<T>)
+ * 	  매개변수
+ * 	     Identidy: 초깃값
+ * 	     BinaryOperator: reduce 연산로직
  *
  *  기존의 주어진 연산 (count, sum 등..) 이 아닌 연산을 Stream 에 수행할때 필요
  *
@@ -31,24 +37,43 @@ import java.util.function.BinaryOperator;
 public class Stream03Main {
 
 	public static void main(String[] args) {
-		System.out.println("reduce() 연산");
-		
-		int [] arr = {1, 2, 3, 4, 5};
+		System.out.println("-".repeat(30) +"\n▶ reduce()");
+		{
+			int [] arr = {1, 2, 3, 4, 5};
 
-		// 초깃값을 안 준 경우
-		// TODO
+			// 초깃값을 안 준 경우
+			// TODO
 
-		// 초깃값을 준 경우
-		// TODO
+			// 초깃값을 준 경우
+			// TODO
 
+		}
 
 
 		System.out.println();
-		// 문자열에서 길이가 가장 긴 문자열을 뽑아내기 		
-		String [] greetings = {"안녕하세요~~~", "Hello", "Good morning", "반갑습니다"};
-		String result;
-		
-		// TODO
+		{
+			// 문자열에서 길이가 가장 긴 문자열을 뽑아내기
+			String [] greetings = {"안녕하세요~~~", "Hello", "Good morning", "반갑습니다"};
+			String result;
+			// TODO
+
+		}
+
+
+		System.out.println();
+		{
+			List<Customer> personList = List.of(
+					new Customer("zayson", 28),
+					new Customer("chaeyoung", 26),
+					new Customer("maeng", 30)
+			);
+
+			// 나이가 28이하인 사람들의 나이의 합
+			// TODO
+
+			// 이름들만 묶어서 하나의 문자열 만들기
+			// TODO
+		}
 
 		System.out.println("\n프로그램 종료");
 	} // end main()
