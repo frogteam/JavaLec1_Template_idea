@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 /* 문자열 (String) 관련 메소드들
  * 
- * https://docs.oracle.com/javase/8/docs/api/java/lang/String.html
+ * https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html
  * - 문자열 메소드는 꼭 정독해보세요.
  * - 매개변수의 의미, 동작의 의미, 리턴값의 의미 꼭 숙지해주세요
  * - 인스턴스 메소드 인지, 클래스 메소드(static) 인지 구분 
@@ -97,7 +97,9 @@ public class String01Main {
 //		System.out.printf("[%s]\n", str9);
 //		System.out.printf("[%s]\n", str9);
 //		System.out.printf("[%s]\n", str9);
-		
+
+		// repeat(n) 문자열 반복
+		System.out.println("-");
 		
 		System.out.println();
 		System.out.println("replace(target, replacement)");   // 문자열 치환  target → replacement  

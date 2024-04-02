@@ -11,7 +11,7 @@ package com.lec.java.j12_09_CallByRef;
  	 		: 메소드에서 매개변수 값을 변경해도 호출한 원본 쪽은 변화 없슴
  	 		
  	reference type 이 매개변수 인 경우 Call By Reference 발생
- 			: '주소' 가 복사된다.
+ 			: '값' 복사된다. (주소값★)
  			: 메소드에서 매개변수 를 통해 변경하면 호출한 원본 쪽도 변화 발생
  	
  */

@@ -3,24 +3,36 @@ package practice.capitalize;
 import java.util.Scanner;
 
 /* LetterCapitalize
- * 	문장을 입력하고,  단어의 앞 문자를 대문자로 만들어 출력하기를 반복하다가
- *  quit 을 입력 받으면 종료하기
- * 
+ * 	주어진 문자열에서, 공백으로 구분된 각 단어의 앞 문자만 대문자로 만들기
+ *
  * 	[입력예]
  * 		hello my WORLD
  *  [출력예]
- * 		Hello My World  
+ * 		Hello My World
  */
 
 public class LetterCapitalize {
-	
-	// TODO : 필요한 메소드 있으면 추가 작성
-	
+
+	public static final String[] input = {
+			"i am a PROGRAMMER",     // -> I Am A Programmer
+			"THAT ELEPHANT IS BIG",  // -> That Elephant Is Big
+	};
+
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+
+		for(var x : input){
+			System.out.println(letterCapitalize(x));
+		}
+
+	} // end main()
+
+	public static String letterCapitalize(String str){
+		String result = "";
 
 		// TODO
-		
-		sc.close();
-	} // end main()
+
+		return result;
+	}  // end letterCapitalize()
+
 } // end class
+
