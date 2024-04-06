@@ -71,7 +71,7 @@ public class RegExp05Main {
 //		regExpTest(regex, arrInput);
 
 		//─────────────────────────────────────────
-//		title = "소수";
+//		title = "소숫점 있는 실수";
 //		regex = ""; // TODO
 //		arrInput = new String[] {
 //			// TODO
