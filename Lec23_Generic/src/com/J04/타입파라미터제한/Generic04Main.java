@@ -1,4 +1,4 @@
-package com.타입파라미터제한;
+package com.J04.타입파라미터제한;
 
 //      와일드 카드 <?>
 //		upper-bounded <? extends Number>
