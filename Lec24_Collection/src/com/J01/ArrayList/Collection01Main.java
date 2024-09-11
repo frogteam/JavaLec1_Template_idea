@@ -46,7 +46,10 @@ public class Collection01Main {
 		
 		// ArrayList 선언 - ArrayList 인스턴스 생성
 		// TODO
-		
+
+		// isEmpty(): 데이터가 없는지 여부 (boolean 리턴)
+		// TODO
+
 		// 데이터 추가(저장): add(element) 메소드 사용
 		//               add(index, element) -> index 번째 삽입
 		// TODO
@@ -54,6 +57,7 @@ public class Collection01Main {
 		
 		// 데이터 참조(읽기, 검색): get(index) 메소드 사용
 		// size(): ArrayList의 크기를 반환(리턴)
+
 		// TODO
 		
 		// 데이터 삭제: remove(index) 메소드 사용

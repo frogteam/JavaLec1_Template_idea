@@ -119,7 +119,11 @@ public class String01Main {
 		System.out.println();
 		System.out.println("String.format()");
 		// TODO
-		
+
+		System.out.println();
+		System.out.println("isEmpty(), isBlank()");
+		// TODO
+
 		
 		// 연습 : id /pw 입력받고요
 		//  로그인 성공 여부를 출력해주세요

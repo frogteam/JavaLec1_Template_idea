@@ -71,6 +71,9 @@ public class DateTime04Main {
 				// String -> LocalDate
 				"\n[String → LocalDate ] LocalDate.parse(), DateTimeFormatter 사용",
 				// TODO
+
+				// single digit month/day 다룰때.
+				// TODO
 		};
 		for (var d : arr) System.out.println(d);
 		

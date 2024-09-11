@@ -1,7 +1,7 @@
 package com.lec.java.j23_03_InnerClass의this;
 
 public class TestOuter {
-	private int value;
+	private int value;  // 1.
 	
 	public TestOuter(int value) {
 		this.value = value;

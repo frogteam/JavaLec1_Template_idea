@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.stream.*;
 
 /**
- *   스트림 연산
+ *  스트림 연산
  *  스트림 연산은 기존자료를 변경하지 않음 (즉 배열에서 생성한 스트림이 원본 배열을 직접 건드리진 않음)
  *  스트림 연산은 '중간연산'과 '최종연산'으로 구분됨
  *
@@ -167,13 +167,6 @@ public class Stream02Main {
 		}
 
 
-		//--------------------------------------------
-		// Stream 은 내부반복 로직 수행
-		// 기존 for, while 루프 대체
-
-		// TODO
-
-
 		/*************************************************************/
 		System.out.println("■".repeat(30));
 		System.out.println("[최종연산(터미널 연산)]");
@@ -200,7 +193,7 @@ public class Stream02Main {
 		// min(), max()   [최종연산]
 		//
 		//  min(), max() 는 primitive, boxed 스트림 양쪽에서 사용 가능
-		//    primitive 타입의 경우 max()에 파라미터가 없고, getAsInt()를 이용해 반환 받을 수 있다.
+		//    primitive 타입의 경우 max()에 파라미터가 없고, getXXX()를 이용해 반환 받을 수 있다.
 		//    reference 타입인 경우 max()에 Comparator가 파라미터로 들어간다.
 		// Optional 리턴:  Optional<T>, OptionalInt, OptionalDouble ..
 
@@ -223,6 +216,13 @@ public class Stream02Main {
 
 		// System.out.println("-".repeat(30) +"\n▶ **Match(Predicate<T>)");
 		{
+
+			//--------------------------------------------
+			// Stream 은 내부반복 로직 수행
+			// 기존 for, while 루프 대체
+			// TODO
+
+
 			// 1) 이름에 "o"가 들어가는 사람이 한명이라도 있습니까? (anyMatch 사용)
 			// TODO
 
@@ -261,7 +261,7 @@ public class Stream02Main {
 		// Collecting   [최종연산]
 		//
 		// collect(Collector<T, A, R>)
-		//    스트린 중간 연산을 결과를 Collector 형태의 파라미터를 받아
+		//    스트림 중간 연산을 결과를 Collector 형태의 파라미터를 받아
 		//    다양한 형태로 결과를 만들어준다.
 		//
 		// Collector<T, A, R>
@@ -319,6 +319,18 @@ public class Stream02Main {
 
 			// 7-2) 나이가 28살이 아닌 사람 구분
 			// TODO
+
+			// 8)
+			//    String 을 쪼개어 List 로 만들기
+			//    List 를 묶어서 String 으로 만들기
+			String str = "GUEST,MEMBER,ADMIN";
+			List<String> list = List.of("GUEST", "MEMBER", "ADMIN");
+
+			// List<String> listCollect = ;
+			// System.out.println("String -> List: " + listCollect);
+
+			// String strCollect =;
+			// System.out.println("List -> String: " + strCollect);
 		}
 
 		System.out.println("\n프로그램 종료");

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExBookManager/ExBookManager.iml" filepath="$PROJECT_DIR$/ExBookManager/ExBookManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLec1_Template.iml" filepath="$PROJECT_DIR$/JavaLec1_Template.iml" />
       <module fileurl="file://$PROJECT_DIR$/Jungol_기초다지기/Jungol_기초다지기.iml" filepath="$PROJECT_DIR$/Jungol_기초다지기/Jungol_기초다지기.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lec05_Operator/Lec05_Operator.iml" filepath="$PROJECT_DIR$/Lec05_Operator/Lec05_Operator.iml" />
