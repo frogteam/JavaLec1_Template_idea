@@ -6,7 +6,9 @@ package com.lec.java.j05_08_비트연산자;
  *   a ^ b: (xor) a와 b 둘 중 하나만 1이 있는 경우는 1, 그 외에는 0
  *          결국 둘이 같으면 0, 다르면 1
  *    ~a  : (not) a가 1이면 0, a가 0이면 1로 바꿔줌
-*/
+ *
+ * ★ 비트연산자의 피연산자는 정수!  (논리연산자와 다르다!)
+ */
 public class Operator08Main {
 
 	public static void main(String[] args) {
