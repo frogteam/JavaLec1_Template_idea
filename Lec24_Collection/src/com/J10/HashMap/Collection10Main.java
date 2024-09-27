@@ -78,6 +78,7 @@ public class Collection10Main {
 		
 		// 방법2 : Map.Entry 사용
 		// entrySet() 은 Set<Map.Entry<K, V>> 리턴함
+		//   Entry 객체는 Key 와 Value 를 가지고 있다 -> getter 제공!
 		// TODO
 		
 		// 방법3 : toString()

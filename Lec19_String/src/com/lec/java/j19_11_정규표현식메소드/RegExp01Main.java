@@ -94,7 +94,7 @@ public class RegExp01Main {
 		
 		
 		// matches()
-		// 패턴매칭이 '문자열 전체영역' 이 패턴매칭 되는지 여부
+		// 패턴매칭이 '문자열 전체영역' 이 패턴매칭 되는지 여부 (true/false)
 		System.out.println();
 		System.out.println("matches()");
 		// TODO

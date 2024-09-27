@@ -60,16 +60,16 @@ public class Collection01Main {
 
 		// TODO
 		
-		// 데이터 삭제: remove(index) 메소드 사용
+		// 데이터 삭제: remove(index) 메소드 사용, 삭제된 element 리턴함
 		// TODO
 		
 		// 데이터 수정: set(index, element) 메소드 사용
 		// TODO
 
-		// 데이터 존재여부: contains() => true/false
+		// 데이터 존재여부: contains(E) => true/false
 		// TODO
 
-		// ArrayList 출력 방법
+		// ArrayList 순환(iteration) 방법
 		// 1) for
 		// 2) Enhanced-for 사용
 		// 3) Iterator(반복자) 사용

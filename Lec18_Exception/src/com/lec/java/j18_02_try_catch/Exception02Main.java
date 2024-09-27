@@ -1,5 +1,5 @@
 package com.lec.java.j18_02_try_catch;
-/* 예외처리 : try~catch를 사용하는 이유
+/* 예외처리(Exception handling) : try~catch를 사용하는 이유
 	 1. if 문은 예외 처리 이외의 용도로 사용되기 때문에 프로그램 코드상에서 
 	    예외처리 부분을 구분하기가 쉽지 않다
 	 2. try {}  블럭은 '일반적인 흐름'을   ,catch {} 블럭을 '예외처리(handling)' 
