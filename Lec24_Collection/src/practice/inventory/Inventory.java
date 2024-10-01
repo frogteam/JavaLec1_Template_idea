@@ -12,7 +12,7 @@ public class Inventory {
     private Integer count; // 상품 재고  (숫자, 기본 0)
     private LocalDateTime createdDate;  // 상품 등록일  (등록날짜 )
 
-    // TODO : ↓ 필요한 생성자와 메소드 작성
+    // TODO : ↓ 생성자, getter&setter, toString 만 추가합니다
 
 
 } // end Model
