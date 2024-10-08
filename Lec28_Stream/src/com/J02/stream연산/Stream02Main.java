@@ -130,7 +130,7 @@ public class Stream02Main {
 		// peek(Consumer<T>)   [중간연산]
 		//    현재 진행중인 Stream 에 영향을 주지 않으면서 현재까지 연산된 요소들을 출력하는등의 동작 수행
 
-		// System.out.println("-".repeat(30) +"\n▶ Consumer<T>");
+		// System.out.println("-".repeat(30) +"\n▶ peek(Consumer<T>)");
 		{
 			List<String> nameList = new ArrayList<>();
 
