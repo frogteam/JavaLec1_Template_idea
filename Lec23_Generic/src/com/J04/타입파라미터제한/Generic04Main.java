@@ -9,7 +9,7 @@ package com.J04.타입파라미터제한;
 */
 /*
    타입 계층 관계가 존재하는 타입 시스템에는
-   Covariance(공변선)와 Contravariance(반공변성)라는 개념(+ Invariance, Bivariance)이 존재한다.
+   Covariance(공변성)와 Contravariance(반공변성)라는 개념(+ Invariance, Bivariance)이 존재한다.
 */
 
 public class Generic04Main {

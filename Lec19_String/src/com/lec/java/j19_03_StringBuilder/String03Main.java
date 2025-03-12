@@ -33,6 +33,8 @@ public class String03Main {
 		
 		System.out.println("[String: immutable]");
 
+		String str1 = "Hello";
+		String str2 = str1;
 		// TODO
 				
 		

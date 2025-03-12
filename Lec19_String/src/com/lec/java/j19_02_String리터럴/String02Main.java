@@ -4,6 +4,16 @@ package com.lec.java.j19_02_String리터럴;
  */
 public class String02Main {
 
+	public static void compareStr(String str1, String str2){
+		System.out.println("─".repeat(20));
+		System.out.printf("str1=%s str2=%s\n", str1, str2);
+		if (str1 == str2) {
+			System.out.println("✅동일 참조");
+		} else {
+			System.out.println("❌다른 참조");
+		}
+	}
+
 	public static void main(String[] args) {
 		System.out.println("String 생성자, literal(상수)");
 		

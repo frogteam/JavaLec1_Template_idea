@@ -50,9 +50,9 @@ public class DateTime04Main {
 	public static void main(String[] args) {
 		System.out.println("-- java.time --");
 
-		LocalDate date1, date2;
-		LocalTime time1, time2;
-		LocalDateTime datetime1, datetime2;
+		LocalDate date1, date2;   // 날짜
+		LocalTime time1, time2;   // 시간
+		LocalDateTime datetime1, datetime2;  // 날짜 + 시간
 		String myDate = "2023-04-05";
 
 		Object[] arr = {

@@ -16,10 +16,11 @@ public class LetterCapitalize {
 	public static final String[] input = {
 			"i am a PROGRAMMER",     // -> I Am A Programmer
 			"THAT ELEPHANT IS BIG",  // -> That Elephant Is Big
+			// ※ 테스트 필요한 데이터 있으면 추가하셔도 좋습니다
 	};
 
+	// main 은 수정하지 마세요
 	public static void main(String[] args) {
-
 		for(var x : input){
 			System.out.println(letterCapitalize(x));
 		}

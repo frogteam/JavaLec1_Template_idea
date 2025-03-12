@@ -12,6 +12,7 @@ public class Isogram {
             "programmer",      // -> false
             "Cocktail",         // -> false  대소문자 동일
             "isogram",         // -> true
+            // ※ 테스트 필요한 데이터 있으면 추가하셔도 좋습니다
     };
 
     // main 은 수정하지 마세요
@@ -22,9 +23,11 @@ public class Isogram {
     }
 
     static boolean is_isogram(String str) {
+        boolean result = false;
+
         // TODO
 
-        return false;
+        return result;
     }
-}
+} // end class
 

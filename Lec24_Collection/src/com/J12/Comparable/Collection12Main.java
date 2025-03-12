@@ -58,7 +58,7 @@ public class Collection12Main {
 		System.out.println();
 		// TODO
 		
-		System.out.println("Comparable 구현, sort() 적용");
+		System.out.println("\n💎Comparable 구현, sort() 적용");
 		// TODO
 		
 		// 역순 정렬
@@ -73,11 +73,11 @@ public class Collection12Main {
 		// Comparator<> 적용
 		// Collections.sort 메소드는 두 번째 인자로 Comparator 인터페이스를 받을 수 있도록 해놓았습니다.
 		// Comparator 인터페이스의 compare 메소드를 오버라이드 하면 됩니다.
-		System.out.println("Comparator<> 적용");
+		System.out.println("\n🎃Comparator<> 적용");
 		// TODO
 		
 		// Collections 에서 많이 쓰이는 인터페이스임
-		// Comparable<> 은 클래스 자체에 구현하는 인터페이스  compareTo(자기사진 vs 매개변수)
+		// Comparable<> 은 클래스 자체에 구현하는 인터페이스  compareTo(자기자신 vs 매개변수)
 		// Comparator<> 는 두개의 객체 비교하는 기능제공 인터페이스  compare(매개변수1 vs 매개변수2)
 		//      구현된 객체가 매개변수 등에 넘겨지는 형태로 많이 쓰임
 		

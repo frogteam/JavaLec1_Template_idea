@@ -14,7 +14,7 @@ package com.J10.HashMap;
 	  |__ HashMap<K, V>, TreeMap<K, V>
 	
 	 Map: key-value 저장 방식의 자료 구조
-	  1. key는 중복되지 않는 값만 허용
+	  1. key는 중복되지 않는 값만 허용, 저장순서 유지되지 않음.
 	  2. value는 같더라도 key 값이 다르면 저장 가능
 	  3. 검색, 수정, 삭제를 할 때 key를 사용
 */
