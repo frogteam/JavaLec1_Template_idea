@@ -41,57 +41,57 @@ package com.lec.java.j24_04_기본함수형인터페이스들;
 public class Lambda04Main {
     public static void main(String[] args) {
 
-        // Runnable
+        // Runnable : 매개변수 없슴.  리턴타입 void.
         {
             // TODO
         }
 
-        //  Supplier<T>
+        //  Supplier<T> : 매개변수 없슴.  리턴타입 (T타입).
         {
             // TODO
         }
 
-        // Consumer<T>
+        // Consumer<T> : 매개변수 있슴(T타입).  리턴타입 void.
         {
             // TODO
         }
 
-        // Function<T, R>
+        // Function<T, R> : 하나의 매개변수 (T타입).  리턴타입 (R타입).
         {
             // TODO
         }
 
-        //  Predicate<T>
+        //  Predicate<T> : 하나의 매개변수 (T타입). 리턴타입 boolean
         {
             // TODO
         }
 
-        // UnaryOperator<T>
+        // UnaryOperator<T> : 매개변수 T, 리턴타입 T
         {
             // TODO
         }
 
-        // BinaryOperator<T>
+        // BinaryOperator<T> : 매개변수 (T, T), 리턴타입 T
         {
             // TODO
         }
 
-        // BiPredicate<T, U>
+        // BiPredicate<T, U> : 매개변수 (T, U), 리턴타입 boolean
         {
             // TODO
         }
 
-        //  BiConsumer<T, U>
+        //  BiConsumer<T, U> : 매개변수 (T, U), 리턴타입 void
         {
             // TODO
         }
 
-        // BiFunction<T, U, R>
+        // BiFunction<T, U, R> : 매개변수 (T, U), 리턴타입 R
         {
             // TODO
         }
 
-        // Comparator<T>
+        // Comparator<T> : 매개변수 (T, T), 리턴타입 int
         {
             // TODO
         }

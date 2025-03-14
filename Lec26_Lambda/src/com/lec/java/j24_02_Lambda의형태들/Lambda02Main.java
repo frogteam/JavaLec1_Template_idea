@@ -17,15 +17,19 @@ public class Lambda02Main {
 		System.out.println("익명 클래스, 람다 표현식 연습");
 		
 		// 매개변수 없고, 리턴값도 없는 경우
+		Test01 lambda01;
 		// TODO
 		
 		// 매개변수 한개, 리턴값은 없는 경우
+		Test02 lambda02;
 		// TODO
 		
 		// 매개변수 여러개, 리턴값이 있슴.
+		Test03 lambda03;
 		// TODO
 		
 		// 매개변수 한개, 내부 수행코드 여러줄.., 리턴값.
+		Test04 lambda04;
 		// TODO
 		
 		// Test05 인터페이스 만들기
@@ -38,6 +42,7 @@ public class Lambda02Main {
 		// x = 3.14
 		// y = 1.2
 	    // 3.14 > 1.2
+		Test05 lambda05;
 		// TODO
 
 		
